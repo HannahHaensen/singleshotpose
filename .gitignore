@@ -334,3 +334,4 @@ VOCdevkit/VOC2012/*
 cfg/darknet19_448.conv.23
 *.weights
 backup/*
+multi_obj_pose_estimation/backup_multi/*.npz
