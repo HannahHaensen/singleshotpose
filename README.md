@@ -5,6 +5,11 @@ This is an adapted version of [SINGLESHOTPOSE](https://github.com/microsoft/sing
 - Tested on Windows 11
 - Pytorch 1.8.2
 - Cuda 11.1
+- for testing on windows check that num_workers=0
+
+- Tested on Ubuntu 20.04
+- Pytorch 1.11
+- Cuda 11.3
 
 # Original README bellow:
 This is the development version of the code for the following paper:
@@ -22,10 +27,10 @@ We propose a single-shot approach for simultaneously detecting an object in an R
 #### Citation
 If you use this code, please cite the following
 > @inproceedings{tekin18,  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TITLE = {{Real-Time Seamless Single Shot 6D Object Pose Prediction}}, 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AUTHOR = {Tekin, Bugra and Sinha, Sudipta N. and Fua, Pascal},  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BOOKTITLE =  {CVPR},  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YEAR = {2018}  
+TITLE = {{Real-Time Seamless Single Shot 6D Object Pose Prediction}}, 
+AUTHOR = {Tekin, Bugra and Sinha, Sudipta N. and Fua, Pascal},  
+BOOKTITLE =  {CVPR},  
+YEAR = {2018}  
 }
 
 ### License
