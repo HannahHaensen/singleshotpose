@@ -3,13 +3,13 @@
 This is an adapted version of [SINGLESHOTPOSE](https://github.com/microsoft/singleshotpose)
 
 - Tested on Windows 11
-- Pytorch 1.8.2
-- Cuda 11.1
-- for testing on windows check that num_workers=0
+  - Pytorch 1.8.2
+  - Cuda 11.1
+  - for testing on windows check that num_workers=0
 
 - Tested on Ubuntu 20.04
-- Pytorch 1.11
-- Cuda 11.3
+  - Pytorch 1.11
+  - Cuda 11.3
 
 # Original README bellow:
 This is the development version of the code for the following paper:
