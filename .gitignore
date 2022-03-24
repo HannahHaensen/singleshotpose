@@ -332,3 +332,5 @@ LINEMOD/*
 VOCdevkit/VOC2012/*
 *.tar
 cfg/darknet19_448.conv.23
+*.weights
+backup/*
