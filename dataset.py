@@ -11,7 +11,7 @@ from utils import read_truths_args
 class listDataset(Dataset):
 
     def __init__(self, root, shape=None, shuffle=True, transform=None, target_transform=None, train=False, seen=0,
-                 batch_size=64, num_workers=0, cell_size=32, bg_file_names=None, num_keypoints=9, max_num_gt=50):
+                 batch_size=64, num_workers=4, cell_size=32, bg_file_names=None, num_keypoints=9, max_num_gt=50):
         # root             : list of training or test images
         # shape            : shape of the image input to the network
         # shuffle          : whether to shuffle or not

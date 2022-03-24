@@ -152,7 +152,7 @@ def eval(niter, datacfg):
     valid_batchsize = 1
 
     # Specify the number of workers for multiple processing, get the dataloader for the test dataset
-    kwargs = {'num_workers': 0, 'pin_memory': True}
+    kwargs = {'num_workers': 4, 'pin_memory': True}
     test_loader = torch.utils.data.DataLoader(
         valid_dataset, batch_size=valid_batchsize, shuffle=False, **kwargs)
 
@@ -406,7 +406,7 @@ if __name__ == "__main__":
             # TRAIN
             niter = train(epoch)
             # TEST and SAVE
-            if (epoch % 20 == 0) and (epoch is not 0):
+            if (epoch % 20 == 0) and (epoch != 0):
                 test(niter)
                 logging('save training stats to %s/costs.npz' % (backupdir))
                 np.savez(os.path.join(backupdir, "costs.npz"),

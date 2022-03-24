@@ -130,7 +130,7 @@ python train_multi.py datafile cfgfile weightfile
 ```
 e.g.,
 ```
-python train_multi.py cfg/occlusion.data cfg/yolo-pose-multi.cfg backup_multi/init.weights
+python train_multi.py --datacfg cfg/occlusion.data --modelcfg cfg/yolo-pose-multi.cfg --initweightfile backup_multi/init.weights
 ```
 
 #### Label files

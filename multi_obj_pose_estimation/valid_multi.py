@@ -57,7 +57,7 @@ def valid(datacfg, cfgfile, weightfile):
 
     # Compute-related Parameters
     use_cuda = True  # whether to use cuda or no
-    kwargs = {'num_workers': 0, 'pin_memory': True}  # number of workers etc.
+    kwargs = {'num_workers': 4, 'pin_memory': True}  # number of workers etc.
 
     # Specicy model, load pretrained weights, pass to GPU and set the module in evaluation mode
     model = Darknet(cfgfile)
