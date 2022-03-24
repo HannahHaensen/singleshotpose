@@ -13,7 +13,7 @@ from image_multi import *
 
 class listDataset(Dataset):
 
-    def __init__(self, root, shape=None, shuffle=True, transform=None, objclass=None, target_transform=None, train=False, seen=0, batch_size=64, num_workers=4, bg_file_names=None): # bg='/cvlabdata1/home/btekin/ope/data/office_bg'
+    def __init__(self, root, shape=None, shuffle=True, transform=None, objclass=None, target_transform=None, train=False, seen=0, batch_size=64, num_workers=0, bg_file_names=None): # bg='/cvlabdata1/home/btekin/ope/data/office_bg'
        with open(root, 'r') as file:
            self.lines = file.readlines()
        if shuffle:

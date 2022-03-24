@@ -1,5 +1,12 @@
 # SINGLESHOTPOSE
  
+This is an adapted version of [SINGLESHOTPOSE](https://github.com/microsoft/singleshotpose)
+
+- Tested on Windows 11
+- Pytorch 1.8.2
+- Cuda 11.1
+
+# Original README bellow:
 This is the development version of the code for the following paper:
 
 Bugra Tekin, Sudipta N. Sinha and Pascal Fua, "Real-Time Seamless Single Shot 6D Object Pose Prediction", CVPR 2018. 
